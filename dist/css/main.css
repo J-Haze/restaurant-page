@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background: black;
+    /* background: linear-gradient(#000, #000) no-repeat center/2px 100%; */
+}
+
+#logo-container{
+    display: flex;
+    width: 220px;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+#main-logo{
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin-right: 8px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display:block;
+}
+
+#title{
+    display: flex;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    color: orange;
+}
+
+#subtitle{
+    display: flex;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+#tabs-container{
+    display: flex;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    /* border: white 1px solid; */
+}
+
+.tab{
+    color: white;
+    /* border: white 1px solid; */
+}
+
+#menu-tab{    
+    /* position: absolute; */
+    /* margin-left:auto; */
+    /* margin-right: auto; */
+    /* align-items: center;
+    justify-content: center; */
+    /* align-self: center; */
+}
+
+#reservations-tab{
+    margin-right: 0px;
+    margin-left:auto;
+}
+
+#content-container{
+    background-color: orange;
+    /* change to correct orange */
+}
+
+.tab-content{
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#story-headline{
+    text-align: center;
+}
+
+#landscape-photo{
+    display: flex;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display:block;
+}
+
+div {
+    border: white 1px solid;
+}
