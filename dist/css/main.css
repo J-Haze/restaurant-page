@@ -1,10 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+
+:root{
+    /* --orange-color: #ff6a00; */
+    --orange-color: orange;
+    --black-color: black;
+}
+
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    background: black;
+    background: var(--black-color);
+    font-family: 'Sorts Mill Goudy', serif;
     /* background: linear-gradient(#000, #000) no-repeat center/2px 100%; */
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
 }
 
 #logo-container{
@@ -12,6 +29,7 @@ body{
     width: 220px;
     align-items: center;
     justify-content: center;
+
     /* border: 1px solid black; */
 }
 
@@ -20,43 +38,73 @@ body{
     width: 200px;
     height: auto;
     margin-right: 8px;
+    /* border: 1px solid white; */
     /* margin-left: auto;
     margin-right: auto; */
-    display:block;
+    /* display:block; */
 }
 
 #title{
     display: flex;
-    width: 200px;
-    height: auto;
-    text-align: center;
+    width: 300px;
+    height: 35px;
+    /* text-align: bottom; */
+    vertical-align: flex-end;
     justify-content: center;
-    color: orange;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 30px;
+    /* border: white 1px solid; */
+    margin-top: 20px;
+    padding: 0px;
+    color: var(--orange-color);
 }
 
 #subtitle{
     display: flex;
     width: 200px;
-    height: auto;
+    /* height: auto; */
     text-align: center;
     justify-content: center;
+    color: var(--orange-color);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    /* border: 1px solid white; */
 }
 
 
 
 #tabs-container{
     display: flex;
-    width: 80%;
+    width: 100%;
     margin-left:auto;
     margin-right: auto;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
     /* border: white 1px solid; */
 }
 
 .tab{
-    color: white;
+    color: var(--orange-color);
+    /* background-color: black; */
+    width: 33.33%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: 16px;
     /* border: white 1px solid; */
+}
+
+.selected{
+    font-weight: bold;
+    background-color: var(--orange-color);
+    /* color: black; */
+    color: var(--black-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 #menu-tab{    
@@ -70,27 +118,52 @@ body{
 
 #reservations-tab{
     margin-right: 0px;
-    margin-left:auto;
+    /* margin-left:auto; */
 }
 
 #content-container{
-    background-color: orange;
-    /* change to correct orange */
+    background-color: var(--orange-color);
 }
 
 .tab-content{
     width: 80%;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
 #story-headline{
     text-align: center;
+    color: var(--black-color);
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#photoDiv{
+    max-width: 100%;
+    height: auto;
+	position: relative;
+    opacity: 0.75;
+    /* border: white 1px solid; */
+}
+
+#photoDiv:before{
+    max-width: 100%;
+    height: auto;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 8px 8px var(--orange-color);
+    -moz-box-shadow: inset 0 0 8px 8px var(--orange-color);
+    -webkit-box-shadow: inset 0 0 8px 8px var(--orange-color);
 }
 
 #landscape-photo{
     display: flex;
-    width: 400px;
+    margin-top: 5px;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -99,6 +172,19 @@ body{
     display:block;
 }
 
-div {
-    border: white 1px solid;
+#story{
+    color: var(--black-color);
+    font-size: 15px;
+    margin-top: 10px;
+    /* border: solid white 1px; */
 }
+
+/* 
+.blur-box {
+    background-color: var(--orange-color);
+    box-shadow: 0 0 5px 10px var(--orange-color);
+} */
+
+/* div {
+    border: white 1px solid;
+} */
