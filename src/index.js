@@ -10,30 +10,30 @@ let mode = "home";
 
 //Add event listeners for the tabs
 
-// let homeTab = document.getElementById('home-tab');
-// let resTab = document.getElementById('reservations-tab');
-// let menuTab = document.getElementById('menu-tab');
-let tabsContainer = document.getElementById("tabs-container")
-
-let homeTab = document.createElement('div');
-let resTab = document.createElement('div');
-let menuTab = document.createElement('div');
-
-homeTab.id = "home-tab";
-homeTab.className = "tab selected";
-homeTab.innerHTML = "HOME";
-tabsContainer.appendChild(homeTab);
+// let tabsContainer = document.getElementById("tabs-container")
+let homeTab = document.getElementById('home-tab');
+let resTab = document.getElementById('reservations-tab');
+let menuTab = document.getElementById('menu-tab');
 
 
-menuTab.id = "menu-tab";
-menuTab.className = "tab";
-menuTab.innerHTML= "MENU";
-tabsContainer.appendChild(menuTab);
+// let homeTab = document.createElement('div');
+// let resTab = document.createElement('div');
+// let menuTab = document.createElement('div');
 
-resTab.id = "reservations-tab";
-resTab.className = "tab";
-resTab.innerHTML = "RESERVATIONS";
-tabsContainer.appendChild(resTab);
+// homeTab.id = "home-tab";
+// homeTab.className = "tab selected";
+// homeTab.innerHTML = "HOME";
+// tabsContainer.appendChild(homeTab);
+
+// menuTab.id = "menu-tab";
+// menuTab.className = "tab";
+// menuTab.innerHTML= "MENU";
+// tabsContainer.appendChild(menuTab);
+
+// resTab.id = "reservations-tab";
+// resTab.className = "tab";
+// resTab.innerHTML = "RESERVATIONS";
+// tabsContainer.appendChild(resTab);
 
 
 homeTab.addEventListener('click', () => {
