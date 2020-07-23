@@ -29,7 +29,7 @@ function menu() {
 
     let storyHeadline = document.createElement('div');
     storyHeadline.id = "story-headline";
-    storyHeadline.innerHTML = "The Story of The Steakhouse";
+    storyHeadline.innerHTML = "MENU";
     homeContent.appendChild(storyHeadline); 
 
     let photoDiv = document.createElement('div');

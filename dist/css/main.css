@@ -91,7 +91,7 @@ body{
     color: var(--orange-color);
     /* background-color: black; */
     width: 33.33%;
-    min-width: 100px;
+    min-width: 150px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@ body{
 
 #content-container{
     background-color: var(--orange-color);
-    min-width: 300px;
+    min-width: 450px;
 }
 
 .tab-content{
