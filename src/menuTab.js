@@ -59,21 +59,21 @@ function menu() {
         ],
 
         "prime steaks":[
-            ["8OZ Filet Mignon", 51],
-            ["14OZ Bone-In Filet Mignon", 60],
-            ["16OZ New York Strip", 58],
-            ["22OZ Bone-In Ribeye", 66],
-            ["22OZ Dry-Aged Ribeye", 84],
-            ["8OZ Wisconsin Grass Fed Strip Loin", 59],
-            ["5OZ American Wagyu Strip Loin", 50],
-            ["5OZ Carrara 640 Wagyu Strip Loin", 75],
-            ["5OZ Japanese A5 Wagyu Strip Loin", 100],
+            ["8oz Filet Mignon", 51],
+            ["14oz Bone-In Filet Mignon", 60],
+            ["16oz New York Strip", 58],
+            ["22oz Bone-In Ribeye", 66],
+            ["22oz Dry-Aged Ribeye", 84],
+            ["8oz Wisconsin Grass Fed Strip Loin", 59],
+            ["5oz American Wagyu Strip Loin", 50],
+            ["5oz Carrara 640 Wagyu Strip Loin", 75],
+            ["5oz Japanese A5 Wagyu Strip Loin", 100],
             ["Beef Wellington", 105]
         ],
 
         "large steaks":[
-            ["32OZ. Tomahawk Ribeye", 129],
-            ["48OZ. Porterhouse", 135]
+            ["32oz Tomahawk Ribeye", 129],
+            ["48oz Porterhouse", 135]
         ],
 
         "sauce":[

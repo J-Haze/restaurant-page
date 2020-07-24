@@ -6,7 +6,7 @@ import {home} from './homeTab';
 import {menu} from './menuTab';
 // import {reservations} from '.reservationsTab';
 
-let mode = "menu";
+let mode = "home";
 
 //Add event listeners for the tabs
 
@@ -70,8 +70,8 @@ resTab.addEventListener('click', () => {
     // res(); //Am I calling a function that isn't defined?
 });
 
-// home();
-menu();
+home();
+// menu();
 
 
 
