@@ -25,42 +25,72 @@ function menu() {
     const menus = {"signature cocktails":[
         ["Boulevardier", 14],
         ["Cosmopolitan", 12],
-        ["Gin & Tonic", 12]
+        ["Gin & Tonic", 12],
+        ["Manhattan", 14],
+        ["Martini", 12],
+        ["Negroni", 14],
+        ["Old Fashioned", 16],
+        ["Sidecar", 14],   
+        ["Vieux Carre", 16],
         ],
 
         "soups & salads":[
             ["House Soup", 8],
-            ["Lobster Bisque", 9]
+            ["Lobster Bisque", 9],
+            ["Iceberg Lettuce Wedge", 9],
+            ["Caesar Salad", 9],
+            ["Steakhouse Salad", 20]
         ],
 
         "starters":[
             ["Wagyu Beef Carpaccio", 24],
-            ["Seared Diver Scallops", 18]
+            ["Seared Diver Scallops", 18],
+            ["Jumbo Lump Crabcake", 22],
+            ["Pork Belly", 15],
+            ["Wagyu Slider Duo", 16]
         ],
 
         "sides":[
-            ["Wagyu Beef Carpaccio", 24],
-            ["Seared Diver Scallops", 18]
+            ["Stuffed Baked Potatoe", 12],
+            ["Creamed Spinach", 10],
+            ["Mashed Potatoes", 9],
+            ["Green Beans", 11],
+            ["Charred Summer Squash", 14]
         ],
 
         "prime steaks":[
-            ["Wagyu Beef Carpaccio", 24],
-            ["Seared Diver Scallops", 18]
+            ["8OZ Filet Mignon", 51],
+            ["14OZ Bone-In Filet Mignon", 60],
+            ["16OZ New York Strip", 58],
+            ["22OZ Bone-In Ribeye", 66],
+            ["22OZ Dry-Aged Ribeye", 84],
+            ["8OZ Wisconsin Grass Fed Strip Loin", 59],
+            ["5OZ American Wagyu Strip Loin", 50],
+            ["5OZ Carrara 640 Wagyu Strip Loin", 75],
+            ["5OZ Japanese A5 Wagyu Strip Loin", 100],
+            ["Beef Wellington", 105]
         ],
 
         "large steaks":[
-            ["Wagyu Beef Carpaccio", 24],
-            ["Seared Diver Scallops", 18]
+            ["32OZ. Tomahawk Ribeye", 129],
+            ["48OZ. Porterhouse", 135]
         ],
 
         "sauce":[
-            ["Wagyu Beef Carpaccio", 24],
-            ["Seared Diver Scallops", 18]
+            ["Au Poivre", 4],
+            ["Roquefort", 4],
+            ["Bearnaise", 4],
+            ["House Steak Sauce", 4],
+            ["Horseradish Crème Fraîche", 4]
         ],
 
         "dessert":[
-            ["Wagyu Beef Carpaccio", 24],
-            ["Seared Diver Scallops", 18]
+            ["Vanilla Bean Creme Brulee", 8],
+            ["Gooey Toffee Pudding Cake", 9],
+            ["Lemon New York Cheesecake", 9],
+            ["Peanut Butter Banana Cream Pie", 9],
+            ["Chocolate Caramel Cream Puff", 10],
+            ["Assorted Ice Creams & Sorbet", 5]
         ]
     };
     
