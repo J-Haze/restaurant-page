@@ -128,11 +128,11 @@ body{
 
 #content-container{
     background-color: var(--orange-color);
+    width: 100%;
     min-width: 450px;
 }
 
 .tab-content{
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -185,6 +185,21 @@ body{
     /* border: solid white 1px; */
 }
 
+.submenu{
+    margin-top: 10px;
+}
+
+.submenu-title{
+    font-weight: bold;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+}
+.table-row{
+    display: flex;
+}
 /* 
 .blur-box {
     background-color: var(--orange-color);
