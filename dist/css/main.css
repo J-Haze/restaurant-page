@@ -101,6 +101,9 @@ body{
     /* border: white 1px solid; */
 }
 
+.tab:hover{
+    cursor: pointer;
+}
 .selected{
     font-weight: bold;
     background-color: var(--orange-color);
