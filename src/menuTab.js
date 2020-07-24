@@ -53,11 +53,15 @@ function menu() {
     // for (let i = 0; i < menus.length; i++){
     for (let i in menus){
         let newSect = document.createElement('div');
+        newSect.className = "submenu";
+
         let newTitle = document.createElement('div');
+        newTitle.className = "submenu-title";
         newTitle.textContent = i.toUpperCase();
         console.log("Menus[i]:", menus[i])
 
         let newTable = document.createElement('table');
+        newTable.className = "table";
 
         menus[i].forEach(x => {
             console.log("x:", x)
@@ -65,15 +69,21 @@ function menu() {
             let item = x[0];
             let price = x[1];
             let rowItems = [item,price]
+            row.className = "row";
             rowItems.forEach(y =>{
                 let column = document.createElement("table-column")
                 column.textContent = y;
+                if (typeof(y) == "number"){
+                    column.classList.add("price")
+                } else{
+                    column.classList.add("item")
+                }
                 row.appendChild(column);
+                //add className based on if it's item or price
             })
             newTable.appendChild(row);
             console.log("Item:", item, "Price:", price)
         })
-
         
         newSect.appendChild(newTitle);
         newSect.appendChild(newTable);
