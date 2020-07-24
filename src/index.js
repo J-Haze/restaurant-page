@@ -4,7 +4,7 @@
 
 import {home} from './homeTab';
 import {menu} from './menuTab';
-// import {reservations} from '.reservationsTab';
+import {reservations} from './reservationsTab';
 
 let mode = "home";
 
@@ -67,7 +67,7 @@ resTab.addEventListener('click', () => {
     menuTab.classList.remove("selected");
     resTab.classList.add("selected");
     clear();
-    // res(); //Am I calling a function that isn't defined?
+    reservations(); //Am I calling a function that isn't defined?
 });
 
 home();

@@ -237,3 +237,27 @@ body{
     font-weight: bold;
 }
 
+#res-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.res-title{
+    font-weight: bold;
+}
+
+#location{
+    margin-top: 10px;
+}
+
+#address{
+    margin-top: 4px;
+    line-height: 18px;
+}
+
+#hours{
+    margin-top: 10px;
+}
