@@ -31,6 +31,36 @@ function menu() {
         "soups & salads":[
             ["House Soup", 8],
             ["Lobster Bisque", 9]
+        ],
+
+        "starters":[
+            ["Wagyu Beef Carpaccio", 24],
+            ["Seared Diver Scallops", 18]
+        ],
+
+        "sides":[
+            ["Wagyu Beef Carpaccio", 24],
+            ["Seared Diver Scallops", 18]
+        ],
+
+        "prime steaks":[
+            ["Wagyu Beef Carpaccio", 24],
+            ["Seared Diver Scallops", 18]
+        ],
+
+        "large steaks":[
+            ["Wagyu Beef Carpaccio", 24],
+            ["Seared Diver Scallops", 18]
+        ],
+
+        "sauce":[
+            ["Wagyu Beef Carpaccio", 24],
+            ["Seared Diver Scallops", 18]
+        ],
+
+        "dessert":[
+            ["Wagyu Beef Carpaccio", 24],
+            ["Seared Diver Scallops", 18]
         ]
     };
     
@@ -45,12 +75,21 @@ function menu() {
     
     let menuContent = document.createElement('div');
     menuContent.id = "menu-content";
-    menuContent.className = "tab-content";
+    // menuContent.className = "menu-content";
     contentContainer.appendChild(menuContent);
+    let col1 = document.createElement('div');
+    let col2 = document.createElement('div');
+    menuContent.appendChild(col1);
+    menuContent.appendChild(col2);
+    col1.id = "col-one";
+    col2.id = "col-two";
+    col1.className = "col";
+    col2.className = "col";
 
     // console.log(menuSections)
     // console.log(cocktails)
     // for (let i = 0; i < menus.length; i++){
+    let count = 0;
     for (let i in menus){
         let newSect = document.createElement('div');
         newSect.className = "submenu";
@@ -83,7 +122,15 @@ function menu() {
         
         newSect.appendChild(newTitle);
         newSect.appendChild(newTable);
-        menuContent.appendChild(newSect);
+
+        if (count < 4){
+            col1.appendChild(newSect)
+        }else{
+            col2.appendChild(newSect)
+        };
+
+        count++;
+        // menuContent.appendChild(newSect);
 
 
         // console.log("With i", Object.getOwnPropertyNames(menus[i]))

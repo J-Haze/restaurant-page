@@ -185,6 +185,15 @@ body{
     /* border: solid white 1px; */
 }
 
+#menu-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    width: 50%;
+}
+
 .submenu{
     margin-top: 10px;
 }
