@@ -47,7 +47,7 @@ function home() {
 
     let homePhoto = document.createElement('img');
     homePhoto.id = "landscape-photo";
-    homePhoto.src = "images/landscape.jpg";
+    homePhoto.src = "images/cow.jpg";
     photoDiv.appendChild(homePhoto);
 
     let story = document.createElement('div');
