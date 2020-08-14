@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+
+:root{
+    /* --orange-color: #ff6a00; */
+    /* --orange-color: orange; */
+    /* --orange-color: #e38c10; */
+    --orange-color: #a84230;
+
+    --black-color: black;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background: var(--black-color);
+    font-family: 'Sorts Mill Goudy', serif;
+    /* background: linear-gradient(#000, #000) no-repeat center/2px 100%; */
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+#logo-container{
+    display: flex;
+    width: 220px;
+    align-items: center;
+    justify-content: center;
+
+    /* border: 1px solid black; */
+}
+
+#main-logo{
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin-right: 8px;
+    /* border: 1px solid white; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* display:block; */
+}
+
+#title{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    /* text-align: bottom; */
+    vertical-align: flex-end;
+    justify-content: center;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 30px;
+    /* border: white 1px solid; */
+    margin-top: 20px;
+    padding: 0px;
+    color: var(--orange-color);
+}
+
+#subtitle{
+    display: flex;
+    width: 200px;
+    /* height: auto; */
+    text-align: center;
+    justify-content: center;
+    color: var(--orange-color);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    /* border: 1px solid white; */
+}
+
+
+
+#tabs-container{
+    display: flex;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;  
+    /* border: white 1px solid; */
+}
+
+.tab{
+    color: var(--orange-color);
+    /* background-color: black; */
+    width: 33.33%;
+    min-width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: 16px;
+    /* border: white 1px solid; */
+}
+
+.tab:hover{
+    cursor: pointer;
+}
+.selected{
+    font-weight: bold;
+    background-color: var(--orange-color);
+    /* color: black; */
+    color: var(--black-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* #menu-tab{    
+    /* position: absolute; */
+    /* margin-left:auto; */
+    /* margin-right: auto; */
+    /* align-items: center;
+    justify-content: center; */
+    /* align-self: center; */
+
+#reservations-tab{
+    margin-right: 0px;
+    /* margin-left:auto; */
+}
+
+#content-container{
+    background-color: var(--orange-color);
+    width: 100%;
+    min-width: 450px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tab-content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-content{
+    margin-bottom: 20px;
+}
+
+#story-headline{
+    text-align: center;
+    color: var(--black-color);
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#photoDiv{
+    max-width: 100%;
+    height: auto;
+	position: relative;
+    opacity: 0.75;
+    /* border: white 1px solid; */
+}
+
+#photoDiv:before{
+    max-width: 100%;
+    height: auto;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 8px 8px var(--orange-color);
+    -moz-box-shadow: inset 0 0 8px 8px var(--orange-color);
+    -webkit-box-shadow: inset 0 0 8px 8px var(--orange-color);
+}
+
+#landscape-photo{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display:block;
+}
+
+#story{
+    color: var(--black-color);
+    font-size: 15px;
+    margin-top: 10px;
+    /* border: solid white 1px; */
+}
+
+#menu-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.col{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submenu{
+    margin-top: 10px;
+}
+
+.submenu-title{
+    font-weight: bold;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+}
+.table-row{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.price{
+    /* justify-content: center;
+    vertical-align: center; */
+    text-align: center;
+    /* border: 1px white solid; */
+    width: 25px;
+    margin-right: 0px;
+    font-weight: bold;
+}
+
+#res-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.res-title{
+    font-weight: bold;
+}
+
+#location{
+    margin-top: 10px;
+}
+
+#address{
+    margin-top: 4px;
+    line-height: 18px;
+}
+
+#hours{
+    margin-top: 10px;
+}
