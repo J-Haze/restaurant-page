@@ -52,19 +52,7 @@ function home() {
 
     let story = document.createElement('div');
     story.id = "story";
-    story.innerHTML = "Look at this photograph. Every time I do it makes me laugh. How did our eyes get so red? And what the hell is on Joey's head?" +
-                        "<br/> <br/>This is where I grew up. I think the present owner fixed it up. I never knew we ever went without. The second floor is hard for sneakin' out. And this is where I went to school." +
-                        " Most of the time I had better things to do. Criminal record says I broke in twice. I must of done it half a dozen times. I wonder if it's too late. Should I go back and try to graduate?" +
-                        " Lot's better now than it was back then. If I was them, I wouldn't let me in. Every memory of lookin' out the back door. I have the photo album spread out on my bedroom floor. It's hard to say it." +
-                        " Time to say it: Good bye, good bye" +
-                        "<br/><br/>Every memory of walkin' out the front door, I found the photo of the friend that I was lookin' for. It's hard to say it. Time to say it. Good bye, good bye, good bye. Remember the old arcade?" +
-                        " Blew every dollar that we ever made. The cops hated us hangin' out. They said somebody went and burnt it down. We use to listen to the radio, and sing along with every song we know.We said someday we'd find out how it feels." +
-                        " To sing to more than just a steering wheel, Kim's the first girl I kissed. I was so nervous that I nearly missed. She's had a couple of kids since then. I haven't seen her since God knows when." +
-                        " Every memory of lookin' out the back door. I have the photo album spread out on my bedroom floor. It's hard to say it. Time to say it. Good bye, goodbye. Every memory of walkin' out the front door. I found the photo of the friend that I was lookin' for." +
-                        " It's hard to say it. Time to say it: Goodbye, goodbye, goodbye" +
-                        "<br/><br/>I miss that town. I miss their faces. You can't erase. You can't replace it. I miss it now, I can't believe it. So hard to stay, too hard to leave it. If I could relive those days. I know the one thing that would never change." +
-                        " Every memory of lookin' out the back door. I have the photo album spread out on my bedroom floor. It's hard to say it. Time to say it: Goodbye, goodbye. Every memory of walkin' out the front door. I found the photo of the friend that I was lookin' for." +
-                        "<br/><br/>It's hard to say it. Time to say it, goodbye, goodbye, good bye. Look at this photograph, every time I do it makes me laugh."
+    story.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     homeContent.appendChild(story);
 
 }
