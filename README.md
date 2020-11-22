@@ -1,3 +1,4 @@
 # restaurant-page
-Restaurant Page for The Odin Project
+Interactive Restaurant Page (sample)
 
+Demo: https://j-haze.github.io//restaurant-page/
