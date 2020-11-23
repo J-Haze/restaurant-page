@@ -14,8 +14,8 @@ The purpose of this project was to create an interactive Restaurant webpage. The
 
 ### Built With: ###
 
-* HTML/CSS
 * JavaScript
+* HTML/CSS
 * Webpack
 
 ### Pictures: ###
