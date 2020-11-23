@@ -18,6 +18,10 @@ The purpose of this project was to create an interactive Restaurant website. The
 * JavaScript
 * Webpack
 
-### Picture: ###
+### Pictures: ###
 
-![Image of App](./images/ReadMe1.png)
+![Image of App1](./images/ReadMe1.png)
+
+![Image of App2](./images/ReadMe2.png)
+
+![Image of App3](./images/ReadMe3.png)
