@@ -1,10 +1,10 @@
 ## Restuarant Page
-Interactive Resturant Website
+Interactive Resturant Webpage
 
 🔗 **Live preview** of the app is [here](https://j-haze.github.io//restaurant-page/).
 
 ### Purpose: ###
-The purpose of this project was to create an interactive Restaurant website. The webpage features a ficticious restaurant, but serves as a sample of a site that could be made for a real restaurant. 
+The purpose of this project was to create an interactive Restaurant webpage. The webpage features a ficticious restaurant, but serves as a sample of a site that could be made for a real restaurant. 
 
 ### Features: ###
 
