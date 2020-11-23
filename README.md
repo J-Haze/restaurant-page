@@ -8,9 +8,9 @@ The purpose of this project was to create an interactive Restaurant website. The
 
 ### Features: ###
 
-* *Home Tab:* Features a story regarding the history and background of the restaurant.
-* Menu Tab: Features all menu items currently being served.
-* Reservations Tab: Features the restaurant's contact information.
+* **Home Tab:** Features a story regarding the history and background of the restaurant.
+* **Menu Tab:** Features all menu items currently being served.
+* **Reservations Tab:** Features the restaurant's contact information.
 
 ### Built With: ###
 
